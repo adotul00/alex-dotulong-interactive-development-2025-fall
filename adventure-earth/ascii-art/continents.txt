@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Adventure: Earth</title>
-    </head>
-    <body>
-        <h1>Pick a continent!</h1>
-        <pre>
                                                       ∙                      
                        .. .     ▄▄▄    ·∙·    ≈≈          ∙                  
     ≈              ■■:::::■ ■█▀▀  █■      ▄   ■∙▄■■■▀▀▀▀▀▀▀▀▀■■▄▄▄  ▄        
@@ -16,7 +8,7 @@
 · ∙.      ≈  ▐^^ █▀▀█▀             ▄▄■▀▀■▄■■▄■  █ ■▄  ^ ^      █ ▀           
     ∙;        ▌▌█ ▄ ▄▄.       ≈   ▐          █■▄ ■▄ ■▄  ▄▄▄  ■■▀       ≈≈    
                ▀▀▀■▄· ∙∙          ▐           █ ■▀   ▐ █▀ ▐ ▄█  █            
-   <a href="continents/americas.html">The Americas</a> -> ▐■▀▀▀▀▄▄        ▀■▄■▄    ^  ▀█     ▀∙ . █ ▀▄  ▀        ·  
+                   ▐■▀▀▀▀▄▄        ▀■▄■▄    ^  ▀█     ▀∙ . █ ▀▄  ▀        ·  
    ≈           ∙   ■       █▄▄          ▌    ^█▀   ≈      █▄▀▐▐▌▐▄           
                     ▌▄^      █▌         ▐   ^ █            ▀■■∙∙.· ▄▄ ∙ ·    
         ≈≈            ▌^    █▌          ▐  ^ █▀ █              ▄■▀▄ █▀   ·   
@@ -28,15 +20,3 @@
                           ▄▀█              ▄▄▄■■▄▄  ▄▄■■▄▄▄▄▄                
              ▄▄■■■■■▀▀▀▀▀■   █■▄▄▄■▀▀▀▀▀▀▀▀       ▀▀        ██▀▀             
           ▀▀▀                                                 ▀▀▀            
-        </pre>
-        <h3>What are continents, you say?</h3>
-        <p>These are the landmasses separated by a natural border such as large bodies of water or mountain ranges. 
-            Each continent is home to unique flora and fauna, and humans divided themselves into different countries on these continents. 
-            One continent, however, does not have any permanent human settlements, though it remains a location several countries 
-            have sent scientists to for further research.
-        </p>
-        <p>Choose a continent above. Otherwise, pick out what else you would like to do below.</p>
-        <a href="geology-2.html">"Let’s look at the Earth’s geology." (you view a cross-section of the planet)</a><br>
-        <a href="end-2.html">"I’m good." (you leave the planet)</a>
-    </body>
-</html>
