@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Europe</title>
-	</head>
-	<body>
-		<h1>Welcome to Europe!</h1>
-		<pre>
                                  ▄■▀▐▌                       
                                ■▀^  █                        
            ▄                  ▐^     █                       
@@ -19,20 +11,14 @@
             ▄■■▌∙▌▐▌       ▄█▐  █  ▐       █■                
            ▌ █  ■  █       ▌▄ ▀▀ ▄▄■        ■▀▀■▄            
           ■▄■▌ ▄▌   █    ▄▄■ ▀▀■▀                ▀■▄         
-              ▄▄■▄▄■▌  ▄■            <a href="europe/e-europe.html">East Europe</a>  █▀         
+              ▄▄■▄▄■▌  ▄■                         █▀         
                    ▄ ▄▌                  ^   █▀■▀▀           
                 ▀█■ ▀                 ^     ▐▌               
                   ■         ^ ^^       ^    █                
-            ▄     ▐^^ ^   ^▄  █▀■ <a href="europe/se-europe.html">Southeast</a> █                
-   ∙      ▐▀ ▀▀■■▄■ ^▄■■▄■▀ ▐ ▀▄ ▀■■▌<a href=europe/se-europe.html>Europe</a>▐▄▄  ▄■■■▄▄ ▄■▀■  
+            ▄     ▐^^ ^   ^▄  █▀■           █                
+   ∙      ▐▀ ▀▀■■▄■ ^▄■■▄■▀ ▐ ▀▄ ▀■■▄      ▐▄▄  ▄■■■▄▄ ▄■▀■  
           ▌         ▄▀     ■ ▀▄▀▄▄   ▐   ▄■■▀▄■▀      ▀   ▐▌ 
 ∙        ▐        ▄▀  ∙   ■▄▌  ▀■▄█▀■ ▄ █ ∙ ▀▐        ▄▄▄ ▄█■
          ▀■▄     ▄▀  ■     ■      █▀ ∙ ■ █ ▀ ∙▀■▀■■▀▄▀   ▀   
             ■▀▀■▀              ▀■█▀     ▀█ ∙ ▀ ∙             
-                                           ▀▀        
-		</pre>
-        <h3>Quick facts about Europe</h3>
-		<p>Lorem Ipsum</p>
-		<a href="../continents.html">Choose another continent</a>
-	</body>
-</html>
+                                           ▀▀                
