@@ -1,14 +1,3 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>...</title>
-        <meta charset="utf-8">
-        <meta description="You hear a strange voice">
-    </head>
-    <body>
-        <h1>The voice returns...
-        </h1>
-        <pre>
 █████████████████░░░░ ░░░░░░░░░████████████░░░░░░░░░░░░███████████▓▓▓███████████
 ███████▓█▓▓▓██░░░░░ ░░░░░██████████████████░░░░░░░░░░   ░  ██████▓▓▓▓▓█▓█▓   ███
 ███▓▓█▓▓▓▓░░░█░░░ ░ █ ██ █ ██ █ ██ █    █████░░░░░░░░░░█░░░  ░   ░░░▓▓▓▓▓▓▓██ █ 
@@ -34,9 +23,3 @@
 ██████▒▒▒▒▒▒▒▒▓▓█████  ░░░░▒▒▒▒▒░░ ░░░░░░░░   ███  ▓▓░░░ ▓▓▓▓▓▓   ███████▓▓▒▒▒▒▒
 ███████▒▒▒▒▒▒▒▓▓▓████  ░░░▒▒▒▒▒▒▒░░░░░░░░░   ████▓▓▓░░░░░ ▓▓▓▓   ████████▓▒▒▒▒▒▒
 ████████▒▒▒▒▒▓▓▓▓▓████  ░░░▒▒▒▒▒▒▒░░░░░░░░░   ██▓▓░░░░░░░██▓▓   █████████▒▒▒▒▒▒█
-        </pre>
-        <h3>It tells you to follow one of it’s orders to return.</h3>
-        <a href="secret-4.html">You decide to see what it wants you to do.</a><br>
-        <a href="secret-3b.html">"No!! I want to go back!!!"</a>
-    </body>
-</html>
