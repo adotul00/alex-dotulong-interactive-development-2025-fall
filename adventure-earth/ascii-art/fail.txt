@@ -1,14 +1,3 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>...</title>
-        <meta charset="utf-8">
-        <meta description="You hear a strange voice">
-    </head>
-    <body>
-        <h1>You try your hardest to break away, but
-        </h1>
-        <pre>
 ║ ≡≡≡≡≡≡≡     ≡≡≡≡≡      ║ ║   ║ ║      
 ║ ║≡≡≡≡≡≡     ≡≡≡≡≡      ║ ║   ║ ║      
 ║ ║        ║ ║     ║ ║   ║ ║   ║ ║      
@@ -20,7 +9,3 @@
 ║ ║        ║ ║     ║ ║   ║ ║   ║ ║      
 ║ ║        ║ ║     ║ ║   ║ ║   ║ ║≡≡≡≡≡≡
 ║ ║        ║ ║     ║ ║   ║ ║   ║ ≡≡≡≡≡≡≡
-        </pre>
-        <a href="secret-3c.html">Try again...</a>
-    </body>
-</html>
