@@ -4,17 +4,44 @@ h1{
     font-family: magnesium-mvb, sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #21325b;
+    color: #ffffff;
 }
 h3{
     font-family: "larken", sans-serif;
     font-weight: 700;
     font-style: normal;
-    color: #335aa9;
+    color: #ffffff;
 }
 body{
     font-family: "larken", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #335aa9;
+    color: #ffffff;
+}
+#title-box{
+    width: 800px;
+    margin: 20px;
+    padding: 20px;
+    background-color:#21325b ;
+}
+#content-box{
+    width: 800px;
+    margin: 20px;
+    padding: 20px;
+    background-color:#335aa9 ;
+}
+#link-box{
+    width: 800px;
+    margin: 20px;
+    padding: 20px;
+    background-color:#21325b ;
+}
+a{
+    color: #ffdf67;
+}
+a:hover{
+    color: #fbb056;
+}
+a:visited{
+    color: #f37453;
 }
