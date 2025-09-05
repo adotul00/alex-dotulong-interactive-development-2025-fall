@@ -13,5 +13,50 @@ p{
     color: #aa0000;
 }
 .special-paragraph{
+    color: green;
     font-size: 32px;
+}
+.special-paragraph.paragraph-group{
+    color:blueviolet;
+    font-size: 60px;
+}
+#unique-id{
+    color: #ff42aa
+}
+a.paragraph-group{
+    color: pink;
+}
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+.box .box{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+}
+a{
+    color: greenyellow;
+}
+p:hover{
+    color: navy;
+}
+p:active{
+    color: aqua;
+}
+p.special-paragraph.paragraph-group:hover{
+    color: navy;
+}
+p.special-paragraph.paragraph-group:active{
+    color: aqua;
+}
+#unique-id:hover{
+    color: navy;
+}
+#unique-id:active{
+    color: aqua;
+}
+span.italic{
+    font-style: italic;
 }

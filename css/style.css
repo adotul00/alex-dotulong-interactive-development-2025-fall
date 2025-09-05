@@ -17,19 +17,24 @@ body{
     font-weight: 400;
     font-style: normal;
     color: #ffffff;
+    width: 800px;
+    margin: auto;
 }
 #title-box{
+    text-align: center;
     margin: 20px;
     padding: 20px;
     background-color:#21325b;
 }
 #content-box{
+    text-align: left;
     margin: 20px;
     padding: 20px;
     background-color:#335aa9;
 }
 .grid-container{
     display: grid;
+    text-align: center;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
     margin: 20px;
@@ -41,9 +46,12 @@ body{
 a{
     color: #ffdf67;
 }
+a:visited{
+    color: #f37453;
+}
 a:hover{
     color: #fbb056;
 }
-a:visited{
-    color: #f37453;
+a:active{
+    color: aqua;
 }
