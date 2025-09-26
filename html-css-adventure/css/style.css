@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body{
+    width: 800px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+
+}
+
+#title{
+    margin: auto;
+    display: block;
+    background-color: lightblue;
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+}
+
+img{
+    max-width: 100%;
+}
+
+#italic{
+    font-style: italic;
+}
+
+.nav-button{
+    display: grid;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+
+.button-text{
+    padding: 20px;
+    text-align: center;
+    margin:20px;
+    background-color: lightblue;
+}
