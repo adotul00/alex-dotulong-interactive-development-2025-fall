@@ -145,6 +145,8 @@ html{
 .link{
     color: #ed1c24;
     text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .shrikhand{
@@ -245,7 +247,7 @@ html{
     top: 190px;
     left: 28px;
     width: 205px;
-    line-height: 150%;
+    line-height: 143%;
 }
 
 .blk-1{
@@ -264,6 +266,7 @@ html{
 .dots{
     text-decoration-line: underline;
     text-decoration-style: dotted;
+    vertical-align: 2px;
 }
 
 .sb{
@@ -289,16 +292,16 @@ html{
     top: 190px;
     left: 255px;
     width: 200px;
-    line-height: 150%;
+    line-height: 140%;
 }
 
 .pricing-3{
     font-size: 15px;
     position: absolute;
-    top: 190px;
+    top: 191px;
     left: 455px;
     width: 200px;
-    line-height: 150%;
+    line-height: 153%;
 }
 
 #sides{
