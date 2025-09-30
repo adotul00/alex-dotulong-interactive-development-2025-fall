@@ -1,0 +1,379 @@
+@charset "UTF-8";
+
+html{
+    background-color: #ed1c24;
+}
+
+.menu{
+    width: 612px;
+    height: 792px;
+    position: relative;
+    background-color: white;
+    margin: auto;
+}
+
+.sections{
+    z-index: 0;
+    position: absolute;
+    top: 26px;
+    left: 47px;
+}
+
+#section-1{
+    width: 510px;
+    height: 175px;
+    border: #ed1c24 2.5pt solid;
+    border-bottom: calc(2.5pt / 2);
+    position: relative;
+}
+
+#section-2{
+    width: 510px;
+    height: 342px;
+    border: #ed1c24 2.5pt solid;
+    border-bottom: calc(2.5pt / 2);
+    position: relative;
+}
+
+.flex-container{
+    display: flex;
+}
+
+#section-3{
+    width: 33%;
+    height: 208px;
+    border: #ed1c24 2.5pt solid;
+    border-bottom: calc(2.5pt / 2);
+    margin: 0;
+    position: relative;
+}
+
+#section-4{
+    width: 66%;
+    height: 208px;
+    border: #ed1c24 2.5pt solid;
+    border-left: calc(2.5pt / 2);
+    border-bottom: calc(2.5pt / 2);
+    margin: 0;
+    position: relative;
+}
+
+#section-5{
+    width: 510px;
+    height: 45px;
+    border: #ed1c24 2.5pt solid;
+    position: relative;
+}
+
+.images{
+    z-index: 2;
+}
+
+#logo{
+    top: 10px;
+    left: 42px;
+    width: 139px;
+    height: auto;
+    position: absolute;
+}
+
+#phone{
+    top: 135px;
+    right: 202px;
+    width: 24px;
+    height: auto;
+    position: absolute;
+}
+
+#insta{
+    top: 168px;
+    right: 204px;
+    width: 20px;
+    height: auto;
+    position: absolute;
+}
+
+#slices{
+    top: 214px;
+    left: 65px;
+    width: 240px;
+    height: auto;
+    position: absolute;
+}
+
+#fresh{
+    top: 273px;
+    right:25px;
+    width: 101px;
+    height: auto;
+    position: absolute;
+}
+
+#price{
+    bottom: 94px;
+    right: 25px;
+    width: 57px;
+    height: auto;
+    position: absolute;
+}
+
+#friendly{
+    bottom: 19px;
+    left: 20px;
+    width: 132px;
+    height: auto;
+    position: absolute;
+}
+
+#circle{
+    bottom: 5px;
+    right: 90px;
+    width: 26px;
+    height: auto;
+    position: absolute;
+}
+
+.button{
+    width: fit-content;
+    margin: auto;
+    position: relative;
+    margin-top: 40px;
+    background-color: white;
+    padding: 10px;
+}
+
+.link{
+    color: #ed1c24;
+    text-align: center;
+}
+
+.shrikhand{
+    font-family: "shrikhand", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ed1c24;
+}
+
+.poppins-reg{
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ed1c24;
+}
+
+.poppins-med{
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #ed1c24;
+}
+
+.poppins-sb{
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #ed1c24;
+}
+
+.poppins-blk{
+    font-family: "poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #ed1c24;
+}
+
+@font-face {
+    font-family: "SignPainter";
+    src: url(/Users/adotul00/Documents/interactive-development-2025/GitHub/alex-dotulong-interactive-development-2025-fall/menu-replica/font/SignPainterHouseScript.ttf) format(truetype);
+}
+
+.signpainter{
+    font-family: "SignPainter";
+    color: #ed1c24;
+}
+
+.about{
+    font-size: 11px;
+    text-align: center;
+    width: 335px;
+    top: 44px;
+    left: 153px;
+    position: absolute;
+    line-height: 135%;
+}
+
+.menu-title{
+    font-size: 50px;
+    top: 95px;
+    left: 48px;
+    position: absolute;
+}
+
+#num{
+    font-size: 15px;
+    top: 109px;
+    left: 372px;
+    position: absolute;
+}
+
+#ig{
+    font-size: 15px;
+    top: 138px;
+    left: 375px;
+    position: absolute;
+}
+
+#bts{
+    font-size: 48px;
+    line-height: 0;
+    position: absolute;
+    top: calc(125px + 13px);
+    left: 19px;
+}
+
+#awo{
+    font-size: 12px;
+    line-height: 0;
+    position: absolute;
+    top: 169px;
+    left: 49px;
+}
+
+.pricing{
+    font-size: 15px;
+    position: absolute;
+    top: 190px;
+    left: 28px;
+    width: 205px;
+    line-height: 150%;
+}
+
+.blk-1{
+    font-size: 13px;
+    line-height: 22px;
+    font-family: "poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #ed1c24;
+}
+
+.justify{
+    text-align-last: justify;
+}
+
+.dots{
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+}
+
+.sb{
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #ed1c24;
+}
+
+#column-2{
+    left: 247px;
+    top: 122px;
+    position: absolute;
+}
+
+#vms{
+    font-size: 22px;
+}
+
+.pricing-2{
+    font-size: 15px;
+    position: absolute;
+    top: 190px;
+    left: 255px;
+    width: 200px;
+    line-height: 150%;
+}
+
+.pricing-3{
+    font-size: 15px;
+    position: absolute;
+    top: 190px;
+    left: 455px;
+    width: 200px;
+    line-height: 150%;
+}
+
+#sides{
+    font-size: 22px;
+    top: 20px;
+    left: 18px;
+    position: absolute;
+}
+
+#sides-list{
+    font-size: 12px;
+    line-height: 165%;
+    top: 85px;
+    left: 9px;
+    position: absolute;
+}
+
+#combos{
+    font-size: 22px;
+    top: 18px;
+    left: 15px;
+    position: absolute;
+}
+
+#combos-list{
+    font-size: 12px;
+    line-height: 200%;
+    top: 50px;
+    left: 14px;
+    position: absolute;
+}
+
+.combos-info{
+    font-size: 11px;
+}
+
+.cmb-price-1{
+    font-size: 20px;
+    left: 286px;
+    top: 74px;
+    position: absolute;
+}
+
+.cmb-price-2{
+    font-size: 20px;
+    left: 275px;
+    top: 170px;
+    position: absolute;
+}
+
+.add-soda{
+    font-size: 11px;
+    top: 144px;
+    left: 248px;
+    position: absolute;
+}
+
+.dips{
+    font-size: 11px;
+    top: 8px;
+    left: 93px;
+    position: absolute;
+}
+
+.dips-list{
+    font-size: 11px;
+    top: 8px;
+    right: 43px;
+    position: absolute;
+}
+
+#img-ctr{
+    width: 612px;
+    height: auto;
+    position: relative;
+    margin: auto;
+    display: block;
+}
