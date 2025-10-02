@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 html{
+    background-color: #ed1c24;
     background-image: url(/Users/adotul00/Documents/interactive-development-2025/GitHub/alex-dotulong-interactive-development-2025-fall/menu-replica/media/vinnies-background.jpg);
     background-repeat: repeat;
 }
@@ -18,11 +19,11 @@ html{
     z-index: 0;
     position: absolute;
     top: 26px;
-    left: 47px;
+    left: 45px;
 }
 
 #section-1{
-    width: 510px;
+    width: 508px;
     height: 175px;
     border: #ed1c24 2.5pt solid;
     border-bottom: calc(2.5pt / 2);
@@ -30,8 +31,8 @@ html{
 }
 
 #section-2{
-    width: 510px;
-    height: 342px;
+    width: 508px;
+    height: 338px;
     border: #ed1c24 2.5pt solid;
     border-bottom: calc(2.5pt / 2);
     position: relative;
@@ -42,8 +43,8 @@ html{
 }
 
 #section-3{
-    width: 33%;
-    height: 208px;
+    width: 34%;
+    height: 204px;
     border: #ed1c24 2.5pt solid;
     border-bottom: calc(2.5pt / 2);
     margin: 0;
@@ -51,8 +52,8 @@ html{
 }
 
 #section-4{
-    width: 66%;
-    height: 208px;
+    width: 65%;
+    height: 204px;
     border: #ed1c24 2.5pt solid;
     border-left: calc(2.5pt / 2);
     border-bottom: calc(2.5pt / 2);
@@ -61,8 +62,8 @@ html{
 }
 
 #section-5{
-    width: 510px;
-    height: 29px;
+    width: 508px;
+    height: 37px;
     border: #ed1c24 2.5pt solid;
     border-bottom: calc(2.5pt / 2);
     position: relative;
@@ -113,23 +114,23 @@ html{
 }
 
 #price{
-    bottom: 94px;
-    right: 25px;
+    bottom: 100px;
+    right: 29px;
     width: 57px;
     height: auto;
     position: absolute;
 }
 
 #friendly{
-    bottom: 19px;
-    left: 20px;
-    width: 132px;
+    bottom: 27px;
+    left: 23px;
+    width: 126px;
     height: auto;
     position: absolute;
 }
 
 #circle{
-    bottom: 5px;
+    bottom: 12px;
     right: 90px;
     width: 26px;
     height: auto;
@@ -200,8 +201,8 @@ html{
     font-size: 11px;
     text-align: center;
     width: 335px;
-    top: 40px;
-    left: 145px;
+    top: 38px;
+    left: 148px;
     position: absolute;
     line-height: 135%;
 }
@@ -308,55 +309,83 @@ html{
 }
 
 #sides{
-    font-size: 22px;
+    font-size: 21px;
     top: 20px;
-    left: 18px;
+    left: 15px;
     position: absolute;
 }
 
 #sides-list{
-    font-size: 12px;
-    line-height: 165%;
-    top: 85px;
+    font-size: 12.5px;
+    line-height: 156%;
+    top: 77px;
     left: 9px;
     position: absolute;
 }
 
 #combos{
-    font-size: 22px;
-    top: 18px;
-    left: 15px;
+    font-size: 21px;
+    top: 16px;
+    left: 12px;
     position: absolute;
 }
 
 #combos-list{
-    font-size: 12px;
-    line-height: 200%;
-    top: 50px;
+    font-size: 13px;
+    top: 52px;
     left: 14px;
     position: absolute;
 }
 
-.combos-info{
+.combos-info-1{
     font-size: 11px;
+    letter-spacing: 0.75px;
+}
+
+.combos-info-2{
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+
+.combos-info-3{
+    font-size: 11px;
+    letter-spacing: 0.75px;
+}
+
+.cmb-grp{
+    line-height: 160%;
+}
+
+#lsb{
+    top: 51px;
+    left: -3px;
+    position: absolute;
+}
+
+#fnf{
+    top: 100px;
+    position: absolute;
 }
 
 .cmb-price-1{
-    font-size: 20px;
-    left: 286px;
-    top: 74px;
+    font-size: 19px;
+    letter-spacing: 1px;
+    left: 289px;
+    top: 69px;
     position: absolute;
 }
 
 .cmb-price-2{
-    font-size: 20px;
-    left: 275px;
-    top: 170px;
+    font-size: 17.5px;
+    letter-spacing: 0.75px;
+    left: 276px;
+    top: 173px;
     position: absolute;
 }
 
 .add-soda{
     font-size: 11px;
+    letter-spacing: 1px;
     top: 144px;
     left: 248px;
     position: absolute;
@@ -364,15 +393,17 @@ html{
 
 .dips{
     font-size: 11px;
-    top: 8px;
-    left: 93px;
+    letter-spacing: 0.5px;
+    top: 10px;
+    left: 94px;
     position: absolute;
 }
 
 .dips-list{
-    font-size: 11px;
-    top: 8px;
-    right: 43px;
+    font-size: 10px;
+    letter-spacing: 0.8px;
+    top: 9px;
+    right: 40px;
     position: absolute;
 }
 
