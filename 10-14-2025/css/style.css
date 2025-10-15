@@ -1,0 +1,24 @@
+.button1{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.button2{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+.button3{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+
+.redblock{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-color: red;
+}
