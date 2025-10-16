@@ -1,0 +1,237 @@
+@charset "UTF-8";
+
+html{
+    font-size: 7px;
+    line-height: 1.5rem;
+    background-color: #e5549d;
+}
+
+.sb{
+    font-family: "mendl-serif-dusk", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.med{
+    font-family: "mendl-serif-dusk", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.reg{
+    font-family: "mendl-serif-dusk", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lt{
+    font-family: "mendl-serif-dusk", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.h1{
+    font-size: 5rem;
+}
+
+.h2{
+    font-size: 3rem;
+}
+
+.h3{
+    font-size: 2.5rem;
+}
+
+.b1{
+    font-size: 2rem;
+}
+
+.b2{
+    font-size: 1.5rem;
+}
+
+.prp{
+    color: #292561;
+}
+
+.pnk{
+    color: #e5549d;
+}
+
+body{
+    position: relative;
+    max-width: 1080px;
+    height: auto;
+    margin: auto;
+    background-color: white;
+}
+
+.print{
+/*     position: absolute;
+ */    max-width: 950px;
+    margin: auto;
+    height: fit-content;
+}
+
+.left{
+    position: absolute;
+    display: inline-block;
+    width: 450px;
+    left: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: white;
+}
+
+.right{
+    position: absolute;
+    display: inline-block;
+    width: 450px;
+    right: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: white;
+}
+
+.head{
+    text-align: center;
+    line-height: 0.5rem;
+    padding-bottom: 25px;
+}
+
+.logo{
+    width: 318px;
+    height: auto;
+    top: 0;
+    padding-bottom: 25px;
+}
+
+.ice-cream{
+    text-align: center;
+    line-height: 2rem;
+}
+
+.title{
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+}
+
+.box-1{
+    padding-left: 25px;
+    padding-right: 25px;
+    border-color: #e5549d;
+    border-width: 3px;
+}
+
+.box-2{
+    padding-left: 25px;
+    padding-right: 25px;
+    border-color: #e5549d;
+    border-width: 3px;
+}
+
+/* .size{
+    
+} */
+
+.cone-ico{
+    display: inline-block;
+    width: 47px;
+}
+
+.cone{
+    display: inline-block;
+    width: 25%;
+}
+
+.cup-ico{
+    display: inline-block;
+    width: 47px;
+}
+
+.cup{
+    display: inline-block;
+    width: 25%;
+}
+
+.shakes{
+    text-align: center;
+    line-height: 2rem;
+}
+
+.shake-ico{
+    display: inline-block;
+    width: 47px;
+}
+
+.shake{
+    display: inline-block;
+    width: 25%;
+}
+
+.flavors{
+    text-align: center;
+    line-height: 3rem;
+}
+
+.flv-1{
+    display: inline-block;
+    width: 27%;
+}
+
+.flv-3{
+    display: inline-block;
+    width: 27%;
+}
+
+.flv-3{
+    display: inline-block;
+    width: 27%;
+}
+
+.toppings{
+    text-align: center;
+    line-height: 3rem;
+}
+
+.top-1{
+    display: inline-block;
+    width: 27%;
+}
+
+.top-3{
+    display: inline-block;
+    width: 27%;
+}
+
+.top-3{
+    display: inline-block;
+    width: 27%;
+}
+
+.button-1{
+    position: fixed;
+    padding: 25px;
+    margin: 25px;
+    bottom: 0;
+    left: 0;
+}
+
+.button-2{
+    position: fixed;
+    padding: 25px;
+    margin: 25px;
+    bottom: 0;
+    right: 0;
+}
+
+.int-buttons{
+    text-align: center;
+    line-height: 5em;
+}
+
+.int-space{
+    padding: 50px;
+}

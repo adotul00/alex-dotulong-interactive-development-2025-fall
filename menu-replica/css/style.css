@@ -189,7 +189,7 @@ html{
 
 @font-face {
     font-family: "SignPainter";
-    src: url(/Users/adotul00/Documents/interactive-development-2025/GitHub/alex-dotulong-interactive-development-2025-fall/menu-replica/font/SignPainterHouseScript.ttf) format(truetype);
+    src: url(../font/SignPainterHouseScript.ttf) format(truetype);
 }
 
 .signpainter{
