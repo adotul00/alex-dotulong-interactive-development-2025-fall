@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/* #btn{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    cursor: pointer;
+} */
+
+#div1{
+    background-color:red;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 10px black solid;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#div2{
+    background-color:blue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 10px black solid;
+    padding: 10px;
+}
+/* if you do not specify anything, it would be a content-box by default. border-box makes the visible size of the element the height and width specified. content-box makes the inside of the box the height and width specified, making the visible size the size in css plus the padding and border width. */

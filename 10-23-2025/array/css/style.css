@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+html{
+    width:100%;
+    height:100%;
+}
+
+body{
+    width:100%;
+    height:100%;
+}
+
+#textinput{
+    /* height:100px; */
+}
+
+#btn1{
+vertical-align: bottom
+}
+
+#btn2{
+vertical-align: bottom
+}
+
+#longtext{
+width:200px; 
+height:200px; 
+vertical-align: bottom;
+resize:none;
+}
+
+#target{
+width: 500px; 
+height: 500px; 
+background-color: yellow; 
+display: inline-block; 
+vertical-align: bottom;
+white-space:pre-wrap;
+}

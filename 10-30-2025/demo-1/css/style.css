@@ -1,0 +1,56 @@
+/* Demo 1 */
+
+@charset "UTF-8";
+
+body{
+    font-family: sans-serif;
+}
+
+#carousel1{
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 0;
+    position: relative;
+    width: 50%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+}
+
+#carousel1>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: inline-block;
+}
+
+#carousel1>div{
+    position: absolute;
+    top: 32px;
+    left: 32px;
+    font-size: 32px;
+    color: white;
+}
+
+span{
+    cursor: pointer;
+}
+
+#carousel1_prev:hover{
+    color: red;
+}
+
+#carousel1_next:hover{
+    color: red;
+}
+
+#carousel1_prev.disabled:hover{
+    color: gray;
+}
+
+#carousel1_next.disabled:hover{
+    color: gray;
+}
+
+.disabled{
+    color: gray;
+}

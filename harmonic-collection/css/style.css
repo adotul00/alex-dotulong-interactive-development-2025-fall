@@ -1,0 +1,160 @@
+@charset "utf-8";
+
+body{
+    height: 100dvh;
+    width: 100dvw;
+    margin: 0;
+    transition: background-color 0.1s ease;
+    font-size: 7px;
+}
+
+.fitdevreg{
+    font-family: "fit-devanagari", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.fitdevwide{
+    font-family: "fit-devanagari-wide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.fitdevexwide{
+    font-family: "fit-devanagari-extra-wide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.fitdevext{
+    font-family: "fit-devanagari-extended", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.fitdevexext{
+    font-family: "fit-devanagari-ex-extended", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.fitdevultext{
+    font-family: "fit-devanagari-ult-extended", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.text{
+    text-align: justify;
+    width: 100dvw;
+    bottom: 0;
+}
+
+p{
+    line-height: 0;
+    margin: 3%;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-top: 2.9%;
+}
+
+.text1{
+    font-size: 5.86dvw;
+}
+
+.text2{
+    font-size: 5.07dvw;
+    margin-top: 4.15%;
+}
+
+.text3{
+    font-size: 5.09dvw;
+    margin-top: 3.92%;
+}
+
+.text4{
+    font-size: 5.93dvw;
+    margin-top: 4.284%;
+}
+
+.text5{
+    font-size: 4.573dvw;
+    margin-top: 3.91%;
+}
+
+@media screen and (max-width: 1080px) and (min-width: 680px){
+    .text1{
+        font-size: 11.03dvw;
+        line-height: 0.767;
+        margin-top: 1.1%;
+        text-align-last: justify;
+    }
+
+    .text2{
+        font-size: 9dvw;
+        line-height: 0.767;
+        margin-top: -0.1%;
+        text-align-last: justify;
+        
+    }
+
+    .text3{
+        font-size: 9vw;
+        line-height: 0.767;
+        margin-top: 0%;
+        text-align-last: justify;
+    }
+
+    .text4{
+        font-size: 11.5vw;
+        line-height: 0.767;
+        margin-top: 0.27%;
+        text-align-last: justify;
+    }
+
+    .text5{
+        font-size: 8.35dvw;
+        line-height: 0.767;
+        margin-top: -0.2%;
+        text-align-last: justify;
+    }
+}
+
+@media screen and (max-width: 680px){
+    .text1{
+        font-size: 11.03dvw;
+        line-height: 0.767;
+        margin-top: 1.1%;
+        text-align-last: justify;
+    }
+
+    .text2{
+        font-size: 9dvw;
+        line-height: 0.767;
+        margin-top: -0.1%;
+        text-align-last: justify;
+        
+    }
+
+    .text3{
+        font-size: 9vw;
+        line-height: 0.767;
+        margin-top: 0%;
+        text-align-last: justify;
+    }
+
+    .text4{
+        font-size: 11.5vw;
+        line-height: 0.767;
+        margin-top: 0.27%;
+        text-align-last: justify;
+    }
+
+    .text5{
+        font-size: 8.35dvw;
+        line-height: 0.767;
+        margin-top: -0.2%;
+        text-align-last: justify;
+    }
+}
