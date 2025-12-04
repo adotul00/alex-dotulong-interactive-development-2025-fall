@@ -1,22 +1,41 @@
 $(document).ready(function(){
 
-    let $pulseFast = $("#pulse-fast");
-
     $(document).on("mousemove", function(e){
+
+        let $pulseFast = $("#pulse-fast");
         let cursorX = e.pageX;
+        let cursorY = e.pageY;
+
+        let circleWidth = $pulseFast.width();
+        let circleHeight = $pulseFast.height();
+
+        let newLeft = cursorX - (circleWidth / 2);
+        let newTop = cursorY - (circleHeight / 2);
+
+        $pulseFast.css({
+            left: newLeft + "px",
+            top: newTop + "px"
+        });
+
+        /* let cursorX = e.pageX;
         let cursorY = e.pageY;
 
         $pulseFast.css({
             left: cursorX + "px",
             top: cursorY + "px"
-        });
+        }); */
     });
 
-    /* let $click = $("#click-me"); */
+    let $click = $("#click-me");
+    let bgColor = $("html").css("background-color");
 
-    $("#click-me").on("click", function(){
-        $("html").css("background-color", "white");
-    })
+    $click.on("click", function(){
+        if (bgColor === "black"){
+            $("html").css("background-color", "white");
+        } else {
+            $("html").css("background-color", "black");
+        }
+    });
 
     /* let circle = $("#pulse-fast");
     let cursorX = 0;

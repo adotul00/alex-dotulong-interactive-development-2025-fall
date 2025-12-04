@@ -170,7 +170,8 @@ p{
     border-radius: 50%;
     pointer-events: none;
     transform: translate(-50%, -50%);
-    transition: transform 0.1s ease-out;
+    transition: transform 2s ease-out;
+    transition-delay: 1s;
     z-index: 2;
     /* animation: pulse1 1s ease-out infinite; */
 }
@@ -180,7 +181,7 @@ p{
 }
 
 #pulse-fast{
-    position: fixed;
+    position: absolute;
     width: 100px;
     height: 100px;
     background-color: white;
@@ -229,4 +230,46 @@ p{
     position: absolute;
     right: 25%;
     bottom: 25%;
+}
+
+.button-1{
+    position: fixed;
+    padding: 25px;
+    margin: 25px;
+    bottom: 0;
+    left: 0;
+    background-color: antiquewhite;
+}
+
+.button-2{
+    position: fixed;
+    padding: 25px;
+    margin: 25px;
+    bottom: 0;
+    right: 0;
+    background-color: antiquewhite;
+}
+
+#page-1{
+    background-color: blue;
+    width: 100px;
+    height: 50px;
+}
+
+#page-2{
+    background-color: red;
+    width: 100px;
+    height: 50px;
+}
+
+#page-3{
+    background-color: gray;
+    width: 100px;
+    height: 50px;
+}
+
+#page-4{
+    background-color: green;
+    width: 100px;
+    height: 50px;
 }
