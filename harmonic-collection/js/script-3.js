@@ -27,15 +27,10 @@ $(document).ready(function(){
     });
 
     let $click = $("#click-me");
-    let bgColor = $("html").css("background-color");
 
     $click.on("click", function(){
-        if (bgColor === "black"){
-            $("html").css("background-color", "white");
-        } else {
-            $("html").css("background-color", "black");
-        }
-    });
+        $("html").css("background-color", "white");
+    })
 
     /* let circle = $("#pulse-fast");
     let cursorX = 0;
