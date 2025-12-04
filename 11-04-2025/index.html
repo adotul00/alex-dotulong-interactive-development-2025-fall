@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Uncorked Fixed Width Menu</title>
+        <meta charset="UTF-8">
+        <link type="text/css" rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div id="menu-page">
+            <img id="deco-avocado">
+            <img id="deco-egg">
+            <div id="disclaimer"></div>
+            <header> <!-- works like div, but tells browser that it is a header -->
+                <div id="hours">
+                    OPENING HOURS:<br>
+                    10 AM – 2 PM<br>
+                    KITCHEN CLOSES 1:50 PM
+                </div>
+                <div id="logo">
+                    <img src="media/logo.png">
+                    <p id="restaurant-type">
+                        wine · craft · tapas
+                    </p> <!-- center dot is option + shift + 9 -->
+                </div>
+                <p id="meal-type">
+                    BRUNCH
+                </p>
+                <div id="address">
+                    5501 PHOENIX AVE<br>
+                    FORT SMITH, AR, 72908
+                </div>
+            </header>
+            <section class="menu-content"> <!-- works like div, but tells browser that it is a section -->
+                <section id="left-column"> <!-- use id since there is only one instance; class is just for repeated instances -->
+                    <div class="category">
+                        <h3 class="category-title">
+                            APPS
+                        </h3>
+                        <ul class="items">
+                            <li class="item">
+                                <p class="item-name">
+                                    AVOCADO TOAST
+                                </p>
+                                <p class="item-price">
+                                    12
+                                </p>
+                                <p class="item-description">
+                                    Fresh avocado on sour dough toast and topped with heirloom tomatoes.
+                                </p>
+                            </li>
+                            <li class="item">
+                                <p class="item-name">
+                                    FRIED DEVILED EGGS
+                                </p>
+                                <p class="item-price">
+                                    10
+                                </p>
+                                <p class="item-description">
+                                    Served with sriracha cream
+                                </p>
+                            </li>
+                            <li class="item">
+                                <p class="item-name">
+                                    CHARCUTERIE BOARD
+                                </p>
+                                <p class="item-price">
+                                    20
+                                </p>
+                                <p class="item-description">
+                                    Chef's choice of cheeses, cured meats, candied pecans, chocolate and crackers
+                                </p>
+                            </li>
+                            <li class="item">
+                                <p class="item-name">
+                                    LOX-TATOR
+                                </p>
+                                <p class="item-price">
+                                    15
+                                </p>
+                                <p class="item-description">
+                                    Whipped goat cheese topped with rosemary fried potatoes, smoked salmon, red onions, capers and fresh dill
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="category">
+                        <h3 class="category-title">
+                            MAINS
+                        </h3>
+                        <ul class="items">
+                            <li class="item">
+                                <p class="item-name">
+                                    BBQ MAC
+                                </p>
+                                <p class="item-price">
+                                    22
+                                </p>
+                                <p class="item-description">
+                                    BBQ short-rib ona bed of triple cheese macaroni and cheese
+                                </p>
+                            </li>
+                            <li class="item">
+                                <p class="item-name">
+                                    BISCUIT & GRAVY
+                                </p>
+                                <p class="item-price">
+                                    11
+                                </p>
+                                <p class="item-description">
+                                    Buttermilk biscuits and country sausage gravy
+                                </p>
+                            </li>
+                            <li class="item">
+                                <p class="item-name">
+                                    CHICKEN &
+                                </p>
+                                <p class="item-price">
+                                    16
+                                </p>
+                                <p class="item-description">
+                                    Fried Chicken Wings and choice of buttermilk waffles or beignets.<br>Topped with powder sugar and syrup
+                                </p>
+                            </li>
+                            <li class="item">
+                                <p class="item-name">
+                                    FRENCH TOAST
+                                </p>
+                                <p class="item-price">
+                                    15
+                                </p>
+                                <p class="item-description">
+                                    Harvest Moon brioche loaf, fresh fruit and our house syrup
+                                </p>
+                            </li>
+                            <li class="item">
+                                <p class="item-name">
+                                    STEAK & EGGS
+                                </p>
+                                <p class="item-price">
+                                    22
+                                </p>
+                                <p class="item-description">
+                                    Prime filet bites with two over easy eggs and fresh chimichurri
+                                </p>
+                            </li>
+                            <li class="item">
+                                <p class="item-name">
+                                    SEAFOOD & GRITS
+                                </p>
+                                <p class="item-price">
+                                    25
+                                </p>
+                                <p class="item-description">
+                                    Brown butter red Argentine shrimp and lump crab cake ona bed of white cheddar grits
+                                </p>
+                            </li>
+                            <li class="item">
+                                <p class="item-name">
+                                    BREAKFAST BOWL
+                                </p>
+                                <p class="item-price">
+                                    16
+                                </p>
+                                <p class="item-description">
+                                    Eggs, heirloom tomatoes, black beans and white cheddar on a bed of rosemary potatoes. Choice of bacon or chicken sausage
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section id="right-column">
+                    <div class="category">
+                        <h3 class="category-title">
+                            BENNIES
+                        </h3>
+                        <ul class="items">
+                            <li class="item">
+                                <p class="item-name">
+                                    THE BENEDICT
+                                </p>
+                                <p class="item-price">
+                                    16
+                                </p>
+                                <p class="item-description">
+                                    Pork belly, fried egg and hollandaise on an english muffin.
+                                </p>
+                            </li>
+                            <li class="item">
+                                <p class="item-name">
+                                    CRAB BENNIE
+                                </p>
+                                <p class="item-price">
+                                    20
+                                </p>
+                                <p class="item-description">
+                                    Lump crab cake, bacon, fried egg and hollandaise on an english muffin
+                                </p>
+                            </li>
+                            <li class="item">
+                                <p class="item-name">
+                                    A&T
+                                </p>
+                                <p class="item-price">
+                                    16
+                                </p>
+                                <p class="item-description">
+                                    Avocado, tomato, fried egg and hollandaise on an english muffin.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="category">
+                        <h3 class="category-title">
+                            HANDHELDS
+                        </h3>
+                        <ul class="items">
+                            <li class="item">
+                                <p class="item-name">
+                                    CRAB CAKE BLT
+                                </p>
+                                <p class="item-price">
+                                    18
+                                </p>
+                                <p class="item-description">
+                                    Lump crab cake, tomato, bacon, heritage blend, remoulade and truffle fries
+                                </p>
+                            </li>
+                            <li class="item">
+                                <p class="item-name">
+                                    BREAKFAST BURRITO
+                                </p>
+                                <p class="item-price">
+                                    13
+                                </p>
+                                <p class="item-description">
+                                    Eggs, country potatoes, black beans, white cheddar and salsa.<br>Choice of bacon or chicken sausage
+                                </p>
+                            </li>
+                            <li class="item">
+                                <p class="item-name">
+                                    BRUNCH BURGER
+                                </p>
+                                <p class="item-price">
+                                    21
+                                </p>
+                                <p class="item-description">
+                                    Wagyu patty, red onion, tomato, lettuce, garlic truffle mayo, fried egg and on a potato bun. Served with truffle fries.
+                                </p>
+                            </li>
+                            <li class="item">
+                                <p class="item-name">
+                                    WAFFLEWICH
+                                </p>
+                                <p class="item-price">
+                                    15
+                                </p>
+                                <p class="item-description">
+                                    Buttermilk waffles, bacon, havarti and fried eggs
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="sides-category">
+                        <h3 class="sides-category-title">
+                            SIDES
+                        </h3>
+                        <ul class="items">
+                            <li class="item">
+                                <p class="item-name">
+                                    COUNTRY POTATOES
+                                </p>
+                                <p class="item-price">
+                                    6
+                                </p>
+                            </li>
+                            <li class="item">
+                                <p class="item-name">
+                                    SIDE SALAD
+                                </p>
+                                <p class="item-price">
+                                    7
+                                </p>
+                            </li>
+                            <li class="item">
+                                <p class="item-name">
+                                    EGGS
+                                </p>
+                                <p class="item-price">
+                                    5
+                                </p>
+                            </li>
+                            <li class="item">
+                                <p class="item-name">
+                                    BAKED MAC
+                                </p>
+                                <p class="item-price">
+                                    10
+                                </p>
+                            </li>
+                            <li class="item">
+                                <p class="item-name">
+                                    CHICKEN SAUSAGE
+                                </p>
+                                <p class="item-price">
+                                    4
+                                </p>
+                            </li>
+                            <li class="item">
+                                <p class="item-name">
+                                    BACON
+                                </p>
+                                <p class="item-price">
+                                    4
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </section>
+        </div>
+    </body>
+</html>

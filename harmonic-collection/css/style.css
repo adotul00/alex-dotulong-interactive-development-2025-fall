@@ -6,6 +6,8 @@ body{
     margin: 0;
     transition: background-color 0.1s ease;
     font-size: 7px;
+    line-height: 1.3;
+    overflow: hidden;
 }
 
 .fitdevreg{
@@ -61,6 +63,7 @@ p{
 
 .text1{
     font-size: 5.86dvw;
+    margin-top: 0.1%;
 }
 
 .text2{
@@ -157,4 +160,73 @@ p{
         margin-top: -0.2%;
         text-align-last: justify;
     }
+}
+
+#follow{
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: transform 0.1s ease-out;
+    z-index: 2;
+    /* animation: pulse1 1s ease-out infinite; */
+}
+
+.black{
+    background-color: black;
+}
+
+#pulse-fast{
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: transform 0.1s ease-out;
+    z-index: 2;
+    animation: pulse2 0.5s ease-out infinite;
+}
+
+@keyframes pulse1 {
+    0% {
+        transform: translate(-50%, -50%);
+        opacity: 1;
+    }
+    100% {
+        transform: translate(-50%, 50%);
+        opacity: 0.8;
+    }
+}
+
+@keyframes pulse2 {
+    0% {
+        transform: translate(-50%, -50%) scale(1.5);
+        opacity: 1;
+    }
+    33% {
+        transform: translate(-50%, 50%) scale(0.8);
+        opacity: 0.75;
+    }
+    34% {
+        transform: translate(-50%, -50%) scale(1.5);
+        opacity: 1;
+    }
+    100% {
+        transform: translate(-50%, 50%) scale(0.8);
+        opacity: 0.5;
+    }
+}
+
+#click-me{
+    color: black;
+    z-index: 3;
+    cursor: pointer;
+    position: absolute;
+    right: 25%;
+    bottom: 25%;
 }

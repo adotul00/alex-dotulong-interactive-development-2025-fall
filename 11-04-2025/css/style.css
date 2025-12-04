@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+html{
+    font-size: 6px;
+    font-family: sans-serif;
+    line-height: 1.3;
+}
+
+body{
+    background-color: #bbbbbb;
+    font-size: 0; /* remove the spaces, lets the actual content be defined */
+}
+
+h3{
+    font-weight: normal;
+}
+
+#menu-page{
+    font-size: 2rem;
+    width: 1200px;
+    height: 1560px;
+    background-color: white;
+    margin: auto;
+    padding-top: calc(6rem * 1.3);
+    padding-left: calc(16rem * 1.3);
+    padding-right: calc(16rem * 1.3);
+    box-sizing: border-box; /* makes padding inside div rather than go outside */
+}
+
+/* header{
+
+} */
+
+ul{
+    padding: 0; /* removes extra padding */
+}
+
+li{
+    list-style-type: none;
+}
+
+p{
+    margin: 0;
+}
+
+.menu-content{
+    font-size: 0;
+}
+
+#left-column{
+    display: inline-block;
+    width: calc(50% - 14rem * 1.3);
+    margin-right: calc(25rem * 1.3);
+    vertical-align: top;
+}
+
+#right-column{
+    display: inline-block;
+    width: calc(50% - 14rem * 1.3);
+    margin-right: calc(3rem * 1.3);
+    vertical-align: top;
+}
+
+.category{
+    width: 100%;
+}
+
+.sides-category{
+    padding-left: calc(6rem * 1.3);
+    padding-right: calc(3rem * 1.3);
+}
+
+.items{
+    width: 100%;   
+}
+
+.item{
+    position: relative;
+    width: 100%;
+    padding-right: 10%;
+    box-sizing: border-box;
+}
+
+.item-name{
+    font-size: 3rem; /* rem calculates based on font-size from html */
+    letter-spacing: 0.25em; /* em calculates based on the font-size from parent */
+}
+
+.item-price{
+    font-size: 3rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.item-description{
+    font-size: 2rem;
+}
+
+.category-title{
+    font-size: 5rem;
+    margin: 0;
+    letter-spacing: 0.25em;
+}
+
+.sides-category-title{
+    font-size: 5rem;
+    margin: 0;
+    letter-spacing: 0.25em;
+}

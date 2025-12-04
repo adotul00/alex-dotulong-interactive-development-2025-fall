@@ -19,4 +19,8 @@ $(document).ready(function(){
 
         $('body').css('background-color', 'rgb(' + red + ',' + green + ',' + blue + ')');
     });
+
+/*     setInterval(function(){
+        $(".text").append('<div class="fitdevexwide text1">I swear I put it right here...<div>')
+    }, 3000); */
 })

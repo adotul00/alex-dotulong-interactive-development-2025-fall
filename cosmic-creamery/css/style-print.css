@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+html{
+    font-size: 7px;
+    line-height: 1.3rem;
+    background-color: #e5549d;
+}
+
+.sb{
+    font-family: "mendl-serif-dusk", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.med{
+    font-family: "mendl-serif-dusk", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.reg{
+    font-family: "mendl-serif-dusk", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lt{
+    font-family: "mendl-serif-dusk", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.h1{
+    font-size: 5rem;
+}
+
+.h2{
+    font-size: 3rem;
+}
+
+.h3{
+    font-size: 2.5rem;
+}
+
+.b1{
+    font-size: 2rem;
+}
+
+.b2{
+    font-size: 1.5rem;
+}
+
+.prp{
+    color: #292561;
+}
+
+.pnk{
+    color: #e5549d;
+}
+
+#print-area{
+    position: absolute;
+    width: calc(125rem * 1.3);
+    height: 1080px;
+    background-color: white;
+    padding: calc(6rem * 1.3);
+    box-sizing: border-box;
+}
+
+.column{
+    position: relative;
+    width: calc(50% - 6rem * 1.3);
+    display: inline-block;
+}
+
+#left-column{
+    margin-right: calc(6rem * 1.3);
+}
+
+#right-column{
+    
+}
+
+#logo-hours{
+    position: relative;
+    text-align: center;
+}
+
+#logo{
+    position: relative;
+    width: 67%;
+    height: auto;
+    top: 0;
+    padding-bottom: calc(2rem * 1.3);
+}
