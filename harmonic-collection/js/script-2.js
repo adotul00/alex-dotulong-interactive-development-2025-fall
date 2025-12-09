@@ -3,7 +3,7 @@ $(document).ready(function(){
     let $cursorFollow = $("#follow");
 
     let mouseMoveTimer;
-    const delayTime = 250;
+    const delayTime = 100;
 
     $("#follow").on("mouemove", function(e){
         clearTimeout(mouseMoveTimer);
