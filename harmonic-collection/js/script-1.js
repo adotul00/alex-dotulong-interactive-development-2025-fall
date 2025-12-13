@@ -4,17 +4,23 @@ $(document).ready(function(){
     let fixedX = $(window).width() * randomNumber;
     let fixedY = $(window).height() * randomNumber;
 
-    $(document).mousemove(function(e){
+    $("body").append('<div id="search-target">you found it</div>');
+    $("#search-target").css({"left": fixedX + "px", "top": fixedY + "px"});
+    $("#search-target").on("click",function(){
+        location.reload();
+});
+
+    $(document).on("mousemove", function(e){
         let cursorX = e.pageX;
         let cursorY = e.pageY;
 
         let distance = Math.sqrt(Math.pow(cursorX - fixedX, 2) + Math.pow(cursorY - fixedY, 2));
 
         let maxDistance = Math.sqrt(Math.pow(fixedX, 2) + Math.pow(fixedY, 2));
-        let colorValue = Math.min(255, Math.floor((distance / maxDistance) * 255));
+        let blueValue = Math.floor((distance / maxDistance) * 256);
 
-        let red = 255 - colorValue;
-        let blue = colorValue;
+        let red = 255 - blueValue;
+        let blue = blueValue;
         let green = 0;
 
         $('body').css('background-color', 'rgb(' + red + ',' + green + ',' + blue + ')');

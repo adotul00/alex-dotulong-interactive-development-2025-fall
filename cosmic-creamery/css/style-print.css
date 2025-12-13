@@ -4,6 +4,8 @@ html{
     font-size: 7px;
     line-height: 1.3rem;
     background-color: #e5549d;
+    position: relative;
+    margin: auto;
 }
 
 .sb{
@@ -34,10 +36,6 @@ html{
     font-size: 5rem;
 }
 
-.h2{
-    font-size: 3rem;
-}
-
 .h3{
     font-size: 2.5rem;
 }
@@ -47,7 +45,7 @@ html{
 }
 
 .b2{
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .prp{
@@ -64,21 +62,28 @@ html{
     height: 1080px;
     background-color: white;
     padding: calc(6rem * 1.3);
+    padding-right:0;
     box-sizing: border-box;
+    z-index: 6;
+    font-size:0;
 }
 
 .column{
     position: relative;
     width: calc(50% - 6rem * 1.3);
     display: inline-block;
+    vertical-align: top;
+    margin-right: calc(6rem * 1.3);
+    height:100%;
+
 }
 
 #left-column{
-    margin-right: calc(6rem * 1.3);
+
 }
 
 #right-column{
-    
+    background-color:antiquewhite;
 }
 
 #logo-hours{
@@ -92,4 +97,51 @@ html{
     height: auto;
     top: 0;
     padding-bottom: calc(2rem * 1.3);
+}
+
+#ice-cream{
+    margin-top: calc(4rem * 1.3);
+    text-align: center;
+    position: relative;
+    border: solid #e5549d 3px;
+    box-sizing: border-box;
+}
+
+.title{
+    position: relative;
+    line-height: 1;
+    top: calc(-3rem * 1.3);
+    padding: calc(1rem * 1.3);
+    width: 40%;
+    background-color: white;
+    margin: auto;
+}
+
+.box-1{
+    position: relative;
+    top: calc(-4rem * 1.3);
+    margin-top: -calc(4rem * 1.3);
+    padding-top: ;
+    padding-left: calc(4rem * 1.3);
+    padding-right: calc(4rem * 1.3);
+}
+
+.h3{
+    line-height: 1rem;
+}
+
+.b1{
+    line-height: 1.3;
+}
+
+.cone-ico{
+    width: 15%;
+    position: absolute;
+    display: inline-block;
+}
+
+.cup-ico{
+    width: 15%;
+    position: absolute;
+    display: inline-block;
 }

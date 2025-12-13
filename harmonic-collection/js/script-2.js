@@ -21,6 +21,11 @@ $(document).ready(function(){
         });
     });
 
+    let textString = "Am I being followed? I thought I heard something. Who's there?! Oh, it was just a cat.";
+
+    let textArray = textString.split(" ");
+    
+
 /*     setInterval(function(){
         $(".text").append('<div class="fitdevexwide text1">I swear I put it right here...<div>')
     }, 3000); */

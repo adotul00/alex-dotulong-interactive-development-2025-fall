@@ -26,11 +26,25 @@ $(document).ready(function(){
         }); */
     });
 
-    let $click = $("#click-me");
+    $("#click-me").on("mouseenter", function(){
+        console.log("mouseenter");
+        $("#pulse-fast").addClass("slow-pulse");
+    });
+    $("#click-me").on("mouseleave", function(){
+        $("#pulse-fast").removeClass("slow-pulse");
+    });
 
-    $click.on("click", function(){
-        $("html").css("background-color", "white");
-    })
+let light=0;
+
+    $("#click-me").on("click", function(){
+        if(light == 0){
+            $("html").css("background-color", "white");
+            light = 1;
+        }else{
+            $("html").css("background-color", "black");
+            light = 0;
+        }
+    });
 
     /* let circle = $("#pulse-fast");
     let cursorX = 0;
